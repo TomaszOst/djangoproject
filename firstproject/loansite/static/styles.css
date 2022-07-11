@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background: rgba(0, 0, 0, 0.218);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #55d6aa;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+   display: inline-block;
+   margin-left: 70px;
+   padding-top: 25px;
+
+   position: relative;
+}
+
+nav a {
+    color: rgb(56, 104, 145)
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+nav a:hover {
+    color: rgb(74, 40, 40);
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px,
+    width: 100%;
+    background-color: #444;
+
+}
